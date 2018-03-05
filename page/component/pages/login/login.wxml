@@ -1,0 +1,12 @@
+<!--page/component/pages/login/login.wxml-->
+<view class='root'>
+  <view class='input-wrap'>
+    <text class='label'>用户名: </text>
+    <input class='input' placeholder='username'></input>
+  </view>
+  <view class='input-wrap'>
+    <text class='label'>密码: </text>
+    <input class='input' placeholder='username'></input>
+  </view>
+  <button class='submit' type="primary">提交</button>
+</view>

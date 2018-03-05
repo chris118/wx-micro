@@ -1,0 +1,10 @@
+<view class="wxgrid">
+    <view wx:key="rows" wx:for="{{wxgrid.rows}}" wx:for-index="i" class="wxrow">
+        <view wx:key="cols" wx:for="{{wxgrid.cols}}" wx:for-index="j" class="wxcol" style="width:{{item.width}}%;">
+            <a class="wxclassify" href="#">
+                <image class="wxclassify-img" mode="aspectFit" src="{{wxgrid.data.classifies[i][j].img}}"></image>
+                {{wxgrid.data.classifies[i][j].name}}
+            </a>
+        </view>
+    </view>
+</view>

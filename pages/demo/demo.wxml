@@ -1,0 +1,6 @@
+<!--pages/demo/demo.wxml-->
+<view class="container">
+  <view class="test">
+    <text class="test-text">hello demo</text>
+  </view>
+</view>
